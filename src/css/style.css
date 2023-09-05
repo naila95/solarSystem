@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+body {
+  background-image: url(../img/stars_glare_space_black_sky_background_4k_hd_galaxy.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.sun {
+  height: 150px;
+  width: 150px;
+  background-image: url(../img/sun.png);
+  border-radius: 50%;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mercury-line {
+  height: 180px;
+  width: 180px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mercury {
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  bottom: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  animation: mercury 2s linear infinite;
+}
+
+@keyframes mercury {
+  0% {
+    transform: rotate(0deg) translateX(90px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(90px) rotate(-360deg);
+  }
+}
+
+.venus-line {
+  height: 250px;
+  width: 250px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.venus {
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  bottom: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  animation: venus 8s linear infinite;
+}
+
+@keyframes venus {
+  0% {
+    transform: rotate(0deg) translateX(120px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(120px) rotate(-360deg);
+  }
+}
+
+.earth-line {
+  height: 310px;
+  width: 310px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.earth {
+  width: 50px;
+  height: 40px;
+  position: absolute;
+  bottom: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  animation: earth 10s linear infinite;
+}
+
+@keyframes earth {
+  0% {
+    transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+
+.mars-line {
+  height: 370px;
+  width: 370px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mars {
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  bottom: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  animation: mars 7s linear infinite;
+}
+
+@keyframes mars {
+  0% {
+    transform: rotate(0deg) translateX(180px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(180px) rotate(-360deg);
+  }
+}
+
+.jupiter-line {
+  height: 430px;
+  width: 430px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.jupiter {
+  width: 70px;
+  height: 60px;
+  position: absolute;
+  bottom: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  animation: jupiter 15s linear infinite;
+}
+
+@keyframes jupiter {
+  0% {
+    transform: rotate(0deg) translateX(210px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(210px) rotate(-360deg);
+  }
+}
+
+.saturn-line {
+  height: 490px;
+  width: 490px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.saturn {
+  width: 70px;
+  height: 50px;
+  position: absolute;
+  bottom: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  animation: saturn 10s linear infinite;
+}
+
+@keyframes saturn {
+  0% {
+    transform: rotate(0deg) translateX(240px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(240px) rotate(-360deg);
+  }
+}
+
+.uranus-line {
+  height: 550px;
+  width: 550px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.uranus {
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  bottom: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  animation: uranus 7s linear infinite;
+}
+
+@keyframes uranus {
+  0% {
+    transform: rotate(0deg) translateX(270px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(270px) rotate(-360deg);
+  }
+}
+
+.neptune-line {
+  height: 610px;
+  width: 610px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.neptune {
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  bottom: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  animation: neptune 12s linear infinite;
+}
+
+@keyframes neptune {
+  0% {
+    transform: rotate(0deg) translateX(300px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(300px) rotate(-360deg);
+  }
+}
