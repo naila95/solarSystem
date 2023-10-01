@@ -80,10 +80,10 @@ body {
 
 @keyframes venus {
   0% {
-    transform: rotate(0deg) translateX(120px) rotate(0deg);
+    transform: rotate(0deg) translateX(125px) rotate(0deg);
   }
   100% {
-    transform: rotate(360deg) translateX(120px) rotate(-360deg);
+    transform: rotate(360deg) translateX(125px) rotate(-360deg);
   }
 }
 
@@ -110,10 +110,10 @@ body {
 
 @keyframes earth {
   0% {
-    transform: rotate(0deg) translateX(150px) rotate(0deg);
+    transform: rotate(0deg) translateX(155px) rotate(0deg);
   }
   100% {
-    transform: rotate(360deg) translateX(150px) rotate(-360deg);
+    transform: rotate(360deg) translateX(155px) rotate(-360deg);
   }
 }
 
@@ -140,10 +140,10 @@ body {
 
 @keyframes mars {
   0% {
-    transform: rotate(0deg) translateX(180px) rotate(0deg);
+    transform: rotate(0deg) translateX(185px) rotate(0deg);
   }
   100% {
-    transform: rotate(360deg) translateX(180px) rotate(-360deg);
+    transform: rotate(360deg) translateX(185px) rotate(-360deg);
   }
 }
 
@@ -170,10 +170,10 @@ body {
 
 @keyframes jupiter {
   0% {
-    transform: rotate(0deg) translateX(210px) rotate(0deg);
+    transform: rotate(0deg) translateX(215px) rotate(0deg);
   }
   100% {
-    transform: rotate(360deg) translateX(210px) rotate(-360deg);
+    transform: rotate(360deg) translateX(215px) rotate(-360deg);
   }
 }
 
@@ -200,10 +200,10 @@ body {
 
 @keyframes saturn {
   0% {
-    transform: rotate(0deg) translateX(240px) rotate(0deg);
+    transform: rotate(0deg) translateX(245px) rotate(0deg);
   }
   100% {
-    transform: rotate(360deg) translateX(240px) rotate(-360deg);
+    transform: rotate(360deg) translateX(245px) rotate(-360deg);
   }
 }
 
@@ -230,10 +230,10 @@ body {
 
 @keyframes uranus {
   0% {
-    transform: rotate(0deg) translateX(270px) rotate(0deg);
+    transform: rotate(0deg) translateX(275px) rotate(0deg);
   }
   100% {
-    transform: rotate(360deg) translateX(270px) rotate(-360deg);
+    transform: rotate(360deg) translateX(275px) rotate(-360deg);
   }
 }
 
@@ -260,9 +260,9 @@ body {
 
 @keyframes neptune {
   0% {
-    transform: rotate(0deg) translateX(300px) rotate(0deg);
+    transform: rotate(0deg) translateX(305px) rotate(0deg);
   }
   100% {
-    transform: rotate(360deg) translateX(300px) rotate(-360deg);
+    transform: rotate(360deg) translateX(305px) rotate(-360deg);
   }
 }
